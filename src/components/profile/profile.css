@@ -1,6 +1,6 @@
 #profile {
   height: 100%;
-  padding-top: 13rem;
+  padding-top: 7rem;
 
 }
 
@@ -13,6 +13,7 @@
   justify-content: center;
   gap: 1.2rem;
   margin-top: 5rem;
+  margin-bottom: 0rem;
 }
 
 @media screen and (max-width: 1024px){
