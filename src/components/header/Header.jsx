@@ -9,8 +9,8 @@ const Header = () => {
     <nav>
       <a 
         href="#" 
-        onClick={() => setActiveNav('#home')} 
-        className={activeNav === '#home' ? 'active' : ''}
+        onClick={() => setActiveNav('#')} 
+        className={activeNav === '#' ? 'active' : ''}
       >
         Home
       </a>
