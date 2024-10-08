@@ -6,7 +6,6 @@ import './profile.css';
 const Profile = () => {
   return (
     <section id="profile">
-
       <div className="container profile__container">
         <h3>Hello, I'm</h3>
         <h1>Yogeshwaran</h1>

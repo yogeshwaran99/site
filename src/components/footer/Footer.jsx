@@ -10,8 +10,7 @@ const Footer = () => {
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/99yogeshwaran/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/yogeshwaran99" target="_blank" rel="noreferrer" ><FaGithub /></a>      
-      </div>
-      
+      </div>      
     </footer>
   )
 }

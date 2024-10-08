@@ -9,8 +9,9 @@ nav {
   top: 0; 
   left: 0;
   gap: 0.8rem;
-  border-radius: 0;
-  backdrop-filter: blur(15px); 
+  border-radius: 0; 
+  -webkit-backdrop-filter: blur(15px); 
+  backdrop-filter: blur(15px);            
 }
 
 nav a {

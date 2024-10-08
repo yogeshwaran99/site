@@ -46,7 +46,7 @@ const Skills = () => {
             <article className="skills__details">
               <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>React</h4>
-            </article>
+            </article>            
           </div>
         </div>
         <div className="skills__tools"> 

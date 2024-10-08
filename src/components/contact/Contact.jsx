@@ -15,7 +15,7 @@ const Contact = () => {
             <a href="mailto:itsyogeshwaran@gmail.com" >itsyogeshwaran@gmail.com</a>
           </article>
         </div>
-            </div>
+      </div>
     </section>
   );
 };
