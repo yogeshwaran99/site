@@ -35,13 +35,12 @@ nav a.active {
 @media (max-width: 600px) {
   nav{    
     display: flex;  
-    bottom: 0; /* Move to the bottom */
+    bottom: 0; 
     top: unset; 
+    height: 60px;
   }
   nav a{
-    font-size: medium;
-    padding: 0.1rem;
-  
-  
+    font-size: 1.5 rem;
+    padding: 0rem;  
   }
 }
