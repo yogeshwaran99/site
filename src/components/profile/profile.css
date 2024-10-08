@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 1024px){
-  header {
+  profile {
     padding-top: 3rem;
   }
 
@@ -27,8 +27,11 @@
 }
 
 @media screen and (max-width: 600px){
-  .header__container {  
+  #profile{
+    padding-top: 3rem;
+  }
+  .profile__container {      
     text-align: center;   
-    padding-top: 6rem; }
+    }
   
 }

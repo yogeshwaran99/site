@@ -35,6 +35,8 @@ nav a.active {
 @media (max-width: 600px) {
   nav{    
     display: flex;  
+    bottom: 0; /* Move to the bottom */
+    top: unset; 
   }
   nav a{
     font-size: medium;

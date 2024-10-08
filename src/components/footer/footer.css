@@ -36,7 +36,11 @@ footer {
   
 @media screen and (max-width: 600px){
     
-
+    footer {
+        padding-bottom: 3.5rem;
+        font-size: 1rem; 
+    }
+    
     .footer__socials {
         margin-bottom: 0.4 rem;
     }
