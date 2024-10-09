@@ -34,7 +34,7 @@ const Project = () => {
 
   return (
     <section id="project">
-      <h5>My Recent Work</h5>
+      <h5>Browse My Recent</h5>
       <h2>Project</h2>
       <div className="container project__container">
         {soloProjects.map((pro) => {
