@@ -29,10 +29,14 @@
 @media screen and (max-width: 600px){
   #profile{
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
   .profile__container {      
     text-align: center;   
     }
+  .cta{
+    margin-bottom:0rem;
+    margin-top: 3rem;
+  }
   
 }
