@@ -17,11 +17,11 @@ const Project = () => {
     },
     {
       id: 2,
-      title: 'Staff Register',
+      title: 'Employee Management',
       img: IMG2,
       description:
         'The Staff Management System, built with Java and Spring Boot, manages employee data via a RESTful API for CRUD operations. It uses MySQL for the database and Postman for API testing.',
-      github: 'https://github.com/yogeshwaran99/EMS',
+      github: 'https://github.com/yogeshwaran99/EmployeeManagement',
     },
     {
       id: 3,
