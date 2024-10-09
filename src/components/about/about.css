@@ -38,6 +38,7 @@ padding-top: 7%;
 .about__content p {
     margin: 2rem 0 2.6rem;    
     color: var(--color-light);
+    text-indent: 40px;
 }
 
 @media screen and (max-width: 1024px){
