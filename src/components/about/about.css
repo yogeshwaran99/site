@@ -36,8 +36,7 @@ padding-top: 7%;
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
-    text-indent: 40px;
+    margin: 2rem 0 2.6rem;    
     color: var(--color-light);
 }
 
