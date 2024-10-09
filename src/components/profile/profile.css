@@ -29,7 +29,7 @@
 @media screen and (max-width: 600px){
   #profile{
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
   .profile__container {      
     text-align: center;   
