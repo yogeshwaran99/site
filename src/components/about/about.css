@@ -41,6 +41,23 @@ padding-top: 7%;
     text-indent: 40px;
 }
 
+#code-container {
+    display: flex;
+    align-items: center; /* Vertically align all elements */
+    justify-content: center;
+    gap: 1rem; /* Space between the elements */
+    margin-bottom: 2rem;
+  }
+  
+  .code {
+    color: var(-color-white);
+  }
+
+  .code:hover, .code:active {
+    color: var(--color-hover);
+}
+  
+  
 @media screen and (max-width: 1024px){
     .about__container {
         grid-template-columns: 1fr;
@@ -76,4 +93,8 @@ padding-top: 7%;
         margin: 1.5rem 0;
         text-align: left;
     }
+    #code-container{
+        flex-direction: column;
+        text-align: center;
+      }
 }

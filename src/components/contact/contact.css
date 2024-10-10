@@ -33,7 +33,7 @@
 .contact__option-icon {
     font-size: 2rem;
     margin-right: 1rem;
-    
+    vertical-align: middle; 
 }
 
 .contact__option a {
@@ -43,7 +43,7 @@
 }
 .contact__option a:hover {
 
-    color:hsl(206, 100%, 50.0%);
+    color: var(--color-hover);
 
 }
 .contact__option h5 {
