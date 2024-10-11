@@ -28,11 +28,12 @@ padding-top: 7%;
 
 .about__card h5 {
     font-size: 1rem;
+    color: var(--color-light);
 }
 
 .about__card small {
     font-size: 0.9rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 .about__content p {
@@ -40,12 +41,15 @@ padding-top: 7%;
     color: var(--color-light);
     text-indent: 40px;
 }
+.about__content h4{
+    color: var(--color-light);
+}
 
 #code-container {
     display: flex;
-    align-items: center; /* Vertically align all elements */
+    align-items: center; 
     justify-content: center;
-    gap: 1rem; /* Space between the elements */
+    gap: 1rem;
     margin-bottom: 2rem;
   }
   

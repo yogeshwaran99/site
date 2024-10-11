@@ -1,7 +1,7 @@
 .project__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 2.5rem;       
 }
 #project{
     padding-top: 7%;
@@ -22,28 +22,29 @@
 .project__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 30%;
+    width: 60%;              
+    height:30%;            
+    margin-left: 3.3rem;
 }
 
 .project__item h3 {
     text-align: center;
-    margin: 2rem 0;
+    margin: 1.5rem 0 1rem;
+
 }
 
-.project__item p {
-    margin: 0 0 1.2rem 0;
+.project__item p {    
     font-size: 0.9rem;
+    color: var(--color-light);
 }
 
 .project__item-cta {
     display: flex;
-    justify-content: center;;
-    margin-top: 0; 
+    justify-content: center;
 }
 
 .project__item-content {
-    height: 50%;
-    margin-bottom: 0rem;
+    height: 53%;
 }
 
 @media screen and (max-width: 1024px){
