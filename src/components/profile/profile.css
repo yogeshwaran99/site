@@ -39,5 +39,9 @@
     margin-bottom:0rem;
     margin-top: 3rem;
   }
+  #profile h1{
+    font-size: 3rem;
+    font-weight: 1000;
+  }
   
 }

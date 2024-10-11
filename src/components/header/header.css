@@ -39,6 +39,7 @@ nav a.active {
     bottom: 0; 
     top: unset; 
     height: 50px;
+    gap: 0.4rem;
   }
   nav a{
     padding: 0.1rem;  
