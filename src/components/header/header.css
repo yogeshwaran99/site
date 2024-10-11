@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  color:hsl(206, 100%, 50.0%);
+  color:var(--color-hover)
 }
 
 nav a.active {
@@ -35,12 +35,12 @@ nav a.active {
 @media (max-width: 600px) {
   nav{    
     display: flex;  
+    justify-content: center;
     bottom: 0; 
     top: unset; 
     height: 60px;
   }
   nav a{
-    font-size: 1.5 rem;
-    padding: 0rem;  
+    padding: 0.4rem;  
   }
 }
