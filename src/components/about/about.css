@@ -27,7 +27,7 @@ padding-top: 5.5rem;
   
 @media screen and (max-width: 600px){    
     #about{
-        padding-top: 1rem;
+        padding-top: 2rem;
         }
     .about__content {
         text-align: center;
