@@ -42,7 +42,7 @@ nav a.active {
     gap: 0.4rem;
   }
   nav a{
-    padding: 0.1rem;  
+    padding: 0.5rem;  
     font-size: 1rem;
   }
 }
