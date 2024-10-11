@@ -17,7 +17,7 @@ const About = () => {
       </span> in <span className="highlight">
       Electronics and Communication Engineering.
       </span>
-      . My passion for technology and innovation keeps me updated on industry trends. I look forward to collaborating with dynamic teams to apply my problem-solving skills and creativity in delivering impactful solutions.
+      My passion for technology and innovation keeps me updated on industry trends. I look forward to working with teams to use my problem-solving skills and creativity to create effective solutions.
     </p>
         </div>
       </div>  

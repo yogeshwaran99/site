@@ -58,7 +58,7 @@
  @media screen and (max-width: 600px){
      .container.code__container {
          width: 75%;
-         padding-bottom: 1rem;         
+         padding-bottom: 3rem;         
      }
      
 #code h3 {
