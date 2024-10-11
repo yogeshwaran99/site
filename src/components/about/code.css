@@ -1,13 +1,13 @@
 .container.code__container {
      width: 100%;
      padding-bottom: 4rem;     
-     max-width: 84%;
+     max-width: 82%;
      }
 
 #code h3 {
         color: var(--color-white);
         text-align: left;
-        margin-left: 6.5rem; 
+        margin-left: 7.2rem; 
         margin-bottom: 1rem;
     }
     
@@ -19,7 +19,7 @@
     height: 3rem;          
     border-radius: 0.5rem; 
     overflow: hidden;      
-    margin: 0 auto 1rem;   
+    margin: 0 auto 0rem;   
     display: flex;        
     justify-content: center; 
     align-items: center;     
@@ -58,7 +58,7 @@
  @media screen and (max-width: 600px){
      .container.code__container {
          width: 75%;
-         padding-bottom: 3rem;         
+         padding-bottom: 2.7rem;         
      }
      
 #code h3 {
