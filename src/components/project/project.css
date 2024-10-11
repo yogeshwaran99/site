@@ -23,7 +23,7 @@
     border-radius: 1.5rem;
     overflow: hidden;
     width: 60%;              
-    height:30%;            
+    height:25%;            
     margin-left: 3.3rem;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .project__item-content {
-    height: 53%;
+    height: 52%;
 }
 
 @media screen and (max-width: 1024px){
