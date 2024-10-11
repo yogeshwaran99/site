@@ -9,6 +9,11 @@ padding-top: 5.5rem;
     text-indent: 40px;
 }
 
+.highlight {
+    font-weight: bold;
+    color: var(--color-white); 
+  }
+  
   
 @media screen and (max-width: 1024px){
     .about__container {

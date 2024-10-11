@@ -10,7 +10,15 @@ const About = () => {
       <h2>About Me</h2>
       <div className="container about__container">        
         <div className="about__content">
-        <p>I am an aspiring Software Developer with a strong passion for contributing to innovative and dynamic teams. My enthusiasm for continuous learning drives me to stay updated with the latest industry trends and advancements. I am eager to bring my creativity and problem solving abilities to impactful projects.</p>        
+        <p>
+      I am an aspiring Software Developer with a{' '}
+      <span className="highlight">
+        Bachelor of Engineering 
+      </span> in <span className="highlight">
+      Electronics and Communication Engineering.
+      </span>
+      . My passion for technology and innovation keeps me updated on industry trends. I look forward to collaborating with dynamic teams to apply my problem-solving skills and creativity in delivering impactful solutions.
+    </p>
         </div>
       </div>  
       <Code />

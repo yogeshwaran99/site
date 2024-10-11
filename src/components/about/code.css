@@ -14,16 +14,17 @@
 .code h4{
     color: var(--color-light);
 }
- .code__img {
-     width: 4rem;
-     aspect-ratio: 1/1;
-     overflow: hidden;
-     border-radius: 50%;
-     margin: 0 auto 1rem;
-     display: flex;
-     justify-content: center;
-     align-content: center;
- }
+.code__img {
+    width: 3rem;           
+    height: 3rem;          
+    border-radius: 0.5rem; 
+    overflow: hidden;      
+    margin: 0 auto 1rem;   
+    display: flex;        
+    justify-content: center; 
+    align-items: center;     
+}
+
  
  .code {
      background: var(--color-bg-variant);
@@ -38,10 +39,10 @@
  .code__name{
     font-size: 0.9rem;
     color: var(--color-white);
-    padding: 0.5rem;
+    
  }
  .btn{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
  }
  
  .swiper-pagination-clickable .swiper-pagination-bullet {
