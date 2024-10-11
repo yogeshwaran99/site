@@ -58,10 +58,11 @@
  @media screen and (max-width: 600px){
      .container.code__container {
          width: 75%;
+         padding-bottom: 1rem;         
      }
      
 #code h3 {
-    margin-top: 14rem;
+    margin-top: 15rem;
 }
      
  }
