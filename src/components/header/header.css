@@ -2,13 +2,13 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  padding: 0.7rem 1.7rem;
+  justify-content: center;
+  padding: .1rem 1.7rem;
   z-index: 300;
   position: fixed;
   top: 0; 
   left: 0;
-  gap: 0.8rem;
+  gap: 1.5rem;
   border-radius: 0; 
   -webkit-backdrop-filter: blur(15px); 
   backdrop-filter: blur(15px);            
@@ -20,7 +20,7 @@ nav a {
   border-radius: 50%;
   display: flex; 
   color: var(--color-light); 
-  font-size: 1.1rem; 
+  font-size: 1.3rem; 
   text-decoration: none; 
 }
 

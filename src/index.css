@@ -14,7 +14,7 @@
   --color-bg: #0f3a64;
   --color-bg-variant:rgba(18, 65, 112, 0.404);
   --color-primary: #e2e7eb;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: grey;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   --color-hover: hsl(206, 100%, 50%);
@@ -36,10 +36,11 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-bg);
+  background-color: #111314;
+  
   color: var(--color-white);
   line-height: 1.7;
-  background-image:  linear-gradient(45deg, #1b365a 0%,  #0f3a64 100%);
+  
   background-attachment: fixed;
 }
 
