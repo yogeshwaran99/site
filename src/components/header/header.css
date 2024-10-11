@@ -38,7 +38,7 @@ nav a.active {
     justify-content: center;
     bottom: 0; 
     top: unset; 
-    height: 60px;
+    height: 50px;
   }
   nav a{
     padding: 0.1rem;  
