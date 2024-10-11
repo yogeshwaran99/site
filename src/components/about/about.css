@@ -12,7 +12,7 @@ padding-top: 7%;
     
     border: 1px solid transparent;
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
     border-color: var(--color-primary-variant);
@@ -45,12 +45,14 @@ padding-top: 7%;
     color: var(--color-light);
 }
 
-#code-container {
+.code-container {
     display: flex;
     align-items: center; 
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
+    border: 1px solid transparent;    
+    padding: 1rem;
   }
   
   .code {
@@ -97,8 +99,10 @@ padding-top: 7%;
         margin: 1.5rem 0;
         text-align: left;
     }
-    #code-container{
-        flex-direction: column;
-        text-align: center;
+    .code-container{
+        flex-direction: column;        
+        gap: 0.3rem;
+        border-color: var(--color-primary-variant);
+         border-radius: 2rem;
       }
 }
