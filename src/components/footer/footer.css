@@ -1,5 +1,5 @@
 footer {
-    background: #080808;
+    background: rgb(39, 36, 36);
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -12,22 +12,17 @@ footer {
     justify-content: center;
     gap: 3rem;
     margin-bottom: 1rem;
-    font-size: medium;
+    font-size: 2rem;
 }
 
-.footer__socials a {
-    background: var(--color-bg-variant);
-    color: var(--color-white);
+.footer__socials a {    
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
-    border: 1px solid transparent;
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-hover);    
 }
 
 .footer__copyright {
@@ -38,8 +33,7 @@ footer {
 @media screen and (max-width: 600px){
     
     footer {
-        padding-bottom: 3.7rem;
-        font-size: 1rem; 
+        padding-bottom: 3rem;
     }
     
     .footer__socials {
