@@ -15,8 +15,8 @@
   --color-bg-variant:rgba(18, 65, 112, 0.404);
   --color-primary: #e2e7eb;
   --color-primary-variant: grey;
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-white: #ececec;
+  --color-light: #9ba1a6;
   --color-hover: hsl(206, 100%, 50%);
 
   --transition: all 400ms ease;
