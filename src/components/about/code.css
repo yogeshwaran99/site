@@ -5,6 +5,7 @@
      }
 
 #code h3 {
+        color: var(--color-white);
         text-align: left;
         margin-left: 6.5rem; 
         margin-bottom: 1rem;
@@ -59,7 +60,7 @@
      }
      
 #code h3 {
-    margin-top: 13rem;
+    margin-top: 14rem;
 }
      
  }
