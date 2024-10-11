@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 600px) {
     .skills__container { 
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .skills__container > div { 
