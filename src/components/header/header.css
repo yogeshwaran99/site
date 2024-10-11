@@ -43,5 +43,6 @@ nav a.active {
   }
   nav a{
     padding: 0.1rem;  
+    font-size: 1rem;
   }
 }
