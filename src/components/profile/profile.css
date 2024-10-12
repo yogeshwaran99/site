@@ -1,11 +1,12 @@
 #profile {
   height: 100vh;
-  margin-top: 0;  
-  background-image: linear-gradient(45deg, #131d2a 0%,  #0f3a64 100%);
+  margin-top: 0;    
+  background: linear-gradient(to top, #09203f 0%, #09538b 100%);
+
 }
   #profile h1{
   font-size: 5rem;
-  font-weight: 1000;
+  font-weight: 500;
 }
 .profile__container {  
   padding-top: 15rem;

@@ -25,7 +25,7 @@ const Code = () => {
       id: 2,
       img: Leetcode,      
       platform: 'Leetcode',
-      problemssolved: '14',
+      problemssolved: '16',
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {

@@ -46,6 +46,10 @@
 .project__item-content {
     height: 49%;
 }
+.project__item:hover{
+    border-color: var(--color-hover);
+
+}
 
 @media screen and (max-width: 1024px){
     .project__container {
