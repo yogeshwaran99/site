@@ -1,20 +1,13 @@
 .container.contact__container {
     width: 58%;
     display: block;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    margin-top: 9rem;
 } 
 #contact{
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
-.contact__options {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.2rem;
-}
 
 .contact__option {
     

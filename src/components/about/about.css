@@ -12,9 +12,12 @@ padding-top: 5.5rem;
 .highlight {
     font-weight: bold;
     background: linear-gradient(to right,  #19bb98, #60a5fa); 
-      -webkit-background-clip: text;
-      color: transparent; 
-      white-space: nowrap;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    color: transparent; 
+    white-space: nowrap;
   }
   
   

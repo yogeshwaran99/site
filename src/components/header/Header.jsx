@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css';
 
 const Header = () => {
@@ -12,22 +12,41 @@ const Header = () => {
     { id: '#contact', label: 'Contact' },
   ];
 
+
+  const handleScroll = () => {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+      if (window.scrollY >= sectionTop - sectionHeight / 3) {
+        const currentSectionId = `#${section.getAttribute('id')}`;
+        setActiveNav(currentSectionId);
+      }
+    });
+  };
+
+  
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll); 
+  }, []);
+
   return (
     <nav>
       {navLinks.map(({ id, label }) => (
-        <a 
+        <a
           key={id}
-          href={id} 
-          onClick={() => setActiveNav(id)} 
+          href={id}
+          onClick={() => setActiveNav(id)}
           className={activeNav === id ? 'active' : ''}
           role="navigation"
-          tabIndex={0} 
+          tabIndex={0}
         >
           {label}
         </a>
       ))}
     </nav>
   );
-}
+};
 
 export default Header;
