@@ -45,4 +45,8 @@ nav a.active {
     padding: 0.5rem;  
     font-size: 1rem;
   }
+
+  nav a.no-hover:hover {
+    color: var(--color-light); 
+  }
 }
