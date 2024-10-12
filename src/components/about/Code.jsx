@@ -24,14 +24,14 @@ const Code = () => {
     {
       id: 2,
       img: Leetcode,      
-      platform: 'Leetcode',
+      platform: 'LeetCode',
       problemssolved: '16',
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
       id: 3,
       img: Geeksforgeeks,      
-      platform: 'Geeksforgeeks',
+      platform: 'GeeksforGeeks',
       problemssolved: '236',
       link: 'https://www.geeksforgeeks.org/user/yogeshwaran99/',
     },
