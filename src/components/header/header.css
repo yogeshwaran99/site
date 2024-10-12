@@ -45,7 +45,4 @@ nav a.active {
     padding: 0.5rem;  
     font-size: 1rem;
   }
-  nav a:hover {
-    color:var(--color-light)
-  }
 }

@@ -3,6 +3,7 @@ import './header.css';
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState('#header');
+  const [clicked, setClicked] = useState(false); // New state to track if a link has been clicked
 
   const navLinks = [
     { id: '#profile', label: 'Home' },
@@ -11,7 +12,6 @@ const Header = () => {
     { id: '#project', label: 'Projects' },
     { id: '#contact', label: 'Contact' },
   ];
-
 
   const handleScroll = () => {
     const sections = document.querySelectorAll('section');
@@ -25,10 +25,9 @@ const Header = () => {
     });
   };
 
-  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll); 
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
@@ -37,8 +36,11 @@ const Header = () => {
         <a
           key={id}
           href={id}
-          onClick={() => setActiveNav(id)}
-          className={activeNav === id ? 'active' : ''}
+          onClick={() => {
+            setActiveNav(id);
+            setClicked(true); 
+          }}
+          className={`${activeNav === id ? 'active' : ''} ${clicked ? 'no-hover' : ''}`} // Apply no-hover class if clicked
           role="navigation"
           tabIndex={0}
         >
