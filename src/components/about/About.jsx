@@ -13,7 +13,7 @@ const About = () => {
         <p>Aspiring Software Developer with a<span className="highlight"> Bachelor of Engineering
       </span> degree in <span className="highlight">
       Electronics and Communication Engineering.
-      </span> Driven by a love for technology and innovation, I focus on staying updated with the latest trends. My strength lies in problem-solving and creative thinking, and I am always eager to work with teams to craft innovative, practical solutions.
+      </span> Driven by a love for technology and innovation, I stay updated with the latest trends. My strength lies in problem-solving and creativity, and I am eager to work with teams to craft innovative, practical solutions.
     </p>
         </div>
       </div>  
