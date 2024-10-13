@@ -25,7 +25,7 @@ const Code = () => {
       id: 2,
       img: Leetcode,      
       platform: 'LeetCode',
-      problemssolved: '19',
+      problemssolved: '20',
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
@@ -39,7 +39,7 @@ const Code = () => {
       id: 4,
       img: Codeforces,      
       platform: 'Codeforces',
-      problemssolved: '17',
+      problemssolved: '18',
       link: 'https://codeforces.com/profile/yogeshwaran99',
     },
   ];
