@@ -32,14 +32,9 @@
     gap: 1rem;
 }
 
-.skills__details-icon-api { 
-    font-size: 30px;
-    color: rgb(196, 53, 53);
-}
-
-.skills__details-icon-vim { 
-    font-size: 30px;
-    color: rgb(46, 163, 0);
+.skills__details-icon {
+    margin-top: 6px;
+    color: gray;
 }
 
 @media screen and (max-width: 1024px) {
