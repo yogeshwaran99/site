@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.db5bab62.css",
-    "main.js": "/site/static/js/main.33f35e40.js",
+    "main.css": "/site/static/css/main.aa7be6f6.css",
+    "main.js": "/site/static/js/main.ca1cfd94.js",
     "static/media/employee.png": "/site/static/media/employee.607dfa6c2bfa86007589.png",
     "static/media/Yogeshwaran.pdf": "/site/static/media/Yogeshwaran.7f74924b6b5f2d675aeb.pdf",
     "static/media/texteditor.png": "/site/static/media/texteditor.66a34b70c6f5450420e5.png",
     "static/media/snakegame.png": "/site/static/media/snakegame.d25b697712a66522743e.png",
     "index.html": "/site/index.html",
-    "main.db5bab62.css.map": "/site/static/css/main.db5bab62.css.map",
-    "main.33f35e40.js.map": "/site/static/js/main.33f35e40.js.map"
+    "main.aa7be6f6.css.map": "/site/static/css/main.aa7be6f6.css.map",
+    "main.ca1cfd94.js.map": "/site/static/js/main.ca1cfd94.js.map"
   },
   "entrypoints": [
-    "static/css/main.db5bab62.css",
-    "static/js/main.33f35e40.js"
+    "static/css/main.aa7be6f6.css",
+    "static/js/main.ca1cfd94.js"
   ]
 }
