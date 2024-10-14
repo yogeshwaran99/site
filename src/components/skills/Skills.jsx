@@ -89,6 +89,10 @@ const Skills = () => {
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>Vim</h4>
+            </article>   
+            <article className="skills__details">
+            <BsFillPatchCheckFill className="skills__details-icon" />
+              <h4>Bash</h4>
             </article>       
           </div>
         </div>        

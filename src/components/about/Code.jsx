@@ -1,7 +1,6 @@
 import React from 'react';
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import  Hackerrank from '../../assets/hackerrank.png';
 import  Leetcode from '../../assets/leetcode.png';
 import  Geeksforgeeks from '../../assets/geeksforgeeks.png';
@@ -25,7 +24,7 @@ const Code = () => {
       id: 2,
       img: Leetcode,      
       platform: 'LeetCode',
-      problemssolved: '21',
+      problemssolved: '25',
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
@@ -39,7 +38,7 @@ const Code = () => {
       id: 4,
       img: Codeforces,      
       platform: 'Codeforces',
-      problemssolved: '18',
+      problemssolved: '19',
       link: 'https://codeforces.com/profile/yogeshwaran99',
     },
   ];
