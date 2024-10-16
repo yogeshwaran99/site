@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/texteditor.png';
-import IMG2 from '../../assets/employee.png';
+//import IMG2 from '../../assets/ecommerce.png';
 import IMG3 from '../../assets/snakegame.png';
 
 import './project.css';
@@ -17,18 +17,18 @@ const Project = () => {
     },
     {
       id: 2,
-      title: 'Employee Management',
-      img: IMG2,
+      title: 'E-Commerce',
+    //img: IMG2,
       description:
-        'The Staff Management System, built with Java and Spring Boot, manages employee data via a RESTful API for CRUD operations. It uses MySQL for the database and Postman for API testing.',
-      github: 'https://github.com/yogeshwaran99/EmployeeManagement',
+        'This project is a full-stack e-commerce application built with Java and Spring Boot for the backend, PostgreSQL as the database, and React for the frontend and REST API for seamless communication.',
+      github: 'https://github.com/yogeshwaran99/E-commerce',
     },
     {
       id: 3,
       title: 'Snake Game',
       img: IMG3,
       description: 'The Classic Snake Game in Java involves guiding a snake to eat food, grow, and avoid collisions. Built with Swing, it features smooth movement, random food generation, and a scoring system.',
-      github: 'https://github.com/yogeshwaran99/SnakeGame',
+      github: 'https://github.com/yogeshwaran99/MiniProjects/tree/main/SnakeGame',
     },
   ];
 
