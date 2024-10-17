@@ -30,7 +30,7 @@ const Skills = () => {
             </article>  
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>MySQL</h4>
+              <h4>SQL</h4>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
@@ -93,6 +93,10 @@ const Skills = () => {
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>Bash</h4>
+            </article>       
+            <article className="skills__details">
+            <BsFillPatchCheckFill className="skills__details-icon" />
+              <h4>Android Studio</h4>
             </article>       
           </div>
         </div>        
