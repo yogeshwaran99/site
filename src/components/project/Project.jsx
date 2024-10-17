@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/texteditor.png';
-//import IMG2 from '../../assets/ecommerce.png';
+import IMG2 from '../../assets/ecommerce.png';
 import IMG3 from '../../assets/snakegame.png';
 
 import './project.css';
@@ -18,7 +18,7 @@ const Project = () => {
     {
       id: 2,
       title: 'E-Commerce',
-    //img: IMG2,
+      img: IMG2,
       description:
         'This project is a full-stack e-commerce application built with Java and Spring Boot for the backend, PostgreSQL as the database, and React for the frontend and REST API for seamless communication.',
       github: 'https://github.com/yogeshwaran99/E-commerce',
