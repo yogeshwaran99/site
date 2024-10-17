@@ -9,10 +9,13 @@
   font-weight: 500;
 }
 .profile__container {  
-  padding-top: 15rem;
+  padding-top: 13rem;
   text-align: center;   
 }
 
+#profile h4{
+  padding-top: 0.srem;
+}
 .cta {
   display: flex;
   justify-content: center;

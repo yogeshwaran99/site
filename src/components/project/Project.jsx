@@ -1,6 +1,6 @@
 import React from 'react';
-import IMG1 from '../../assets/texteditor.png';
-import IMG2 from '../../assets/ecommerce.png';
+import IMG1 from '../../assets/ecommerce.png';
+import IMG2 from '../../assets/texteditor.png';
 import IMG3 from '../../assets/snakegame.png';
 
 import './project.css';
@@ -9,19 +9,19 @@ const Project = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Text Editor',
+      title: 'E-Commerce',
       img: IMG1,
-      description:
-        'The Java-based Text Editor provides a platform for creating and editing text documents with font selection, bold, italic and underline. It aims to enhance the editing experience.',
-      github: 'https://github.com/yogeshwaran99/TextEditor',
+      description: 'This project is a full-stack e-commerce application built with Java (Spring Boot) for the backend, PostgreSQL as the database, React for the frontend, and a REST API for interaction.',
+      github: 'https://github.com/yogeshwaran99/E-commerce',
+    
     },
     {
       id: 2,
-      title: 'E-Commerce',
+      title: 'Text Editor',
       img: IMG2,
-      description:
-        'This project is a full-stack e-commerce application built with Java and Spring Boot for the backend, PostgreSQL as the database, and React for the frontend and REST API for seamless communication.',
-      github: 'https://github.com/yogeshwaran99/E-commerce',
+      description: 'The Java-based Text Editor provides a platform for creating and editing text documents with font selection, bold, italic and underline. It aims to enhance the editing experience.',
+      github: 'https://github.com/yogeshwaran99/TextEditor',
+    
     },
     {
       id: 3,

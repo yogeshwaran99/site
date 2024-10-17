@@ -10,10 +10,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="container about__container">        
         <div className="about__content">
-        <p>Aspiring Software Developer with a<span className="highlight"> Bachelor of Engineering
-      </span> degree in <span className="highlight">
-      Electronics and Communication Engineering.
-      </span> Driven by a love for technology and innovation, I stay updated with the latest trends. My strength lies in problem-solving and creativity, and I am eager to work with teams to craft innovative, practical solutions.
+        <p>Aspiring Software Developer with a<span className="highlight"> Bachelor of Engineering</span> degree in Electronics and Communication Engineering. Driven by a passion for technology and innovation, particularly in <span className="highlight">Java</span>, I stay updated with the latest trends. My strength lies in problem-solving and creativity, and I am eager to work with teams to craft solutions.
     </p>
         </div>
       </div>  
