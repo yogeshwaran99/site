@@ -15,13 +15,12 @@ const Skills = () => {
             <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>C</h4>
             </article>
-
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-  <h4>Java</h4>
-</article>
-<article className="skills__details">
-<BsFillPatchCheckFill className="skills__details-icon" />
+              <h4>Java</h4>
+            </article>
+            <article className="skills__details">
+            <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>Springboot</h4>
             </article>            
             <article className="skills__details">
