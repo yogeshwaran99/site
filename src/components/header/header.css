@@ -2,21 +2,17 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
   display: flex;
-  justify-content: center;
-  padding: .1rem 1.7rem;
+  justify-content: center;  
   z-index: 300;
   position: fixed;
-  top: 0; 
-  left: 0;
-  gap: 1.5rem;
-  border-radius: 0; 
+  gap: 3.5rem;
   -webkit-backdrop-filter: blur(15px); 
   backdrop-filter: blur(15px);            
 }
 
 nav a {
   background: transparent;
-  padding: 0.9rem;
+  padding: 0.5rem;
   border-radius: 50%;
   display: flex; 
   color: var(--color-light); 

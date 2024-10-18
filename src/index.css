@@ -14,10 +14,11 @@
   --color-bg: #0f3a64;
   --color-bg-variant:rgba(18, 65, 112, 0.404);
   --color-primary: #e2e7eb;
-  --color-primary-variant: grey;
+  --color-primary-variant: rgb(73, 73, 73);
   --color-white: #ececec;
   --color-light: #9ba1a6;
   --color-hover: hsl(206, 100%, 50%);
+  --color-btn: rgb(21, 50, 83);
 
   --transition: all 400ms ease;
 
@@ -97,14 +98,14 @@ a:hover {
   padding: 0.2rem 1.2rem;
   border-radius: 2rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-primary-variant);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background-color: var(--color-white);
+  background-color: transparent;
   color:var(--color-hover);
-  border-color: transparent;
+  border-color: (var(--color-hover));
 }
 
 .btn-primary {

@@ -34,9 +34,7 @@
      border: 1px solid transparent;
      border-color: var(--color-primary-variant);
  }
- .code:hover{
-    border-color: var(--color-hover);
- }
+ 
  .code__name{
     font-size: 0.9rem;
     color: var(--color-white);

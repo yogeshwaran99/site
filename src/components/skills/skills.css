@@ -33,8 +33,9 @@
 }
 
 .skills__details-icon {
-    margin-top: 6px;
-    color: gray;
+    margin-top: 6.5px;
+    font-size: 14px;
+    color: rgb(104, 101, 101);
 }
 
 @media screen and (max-width: 1024px) {
