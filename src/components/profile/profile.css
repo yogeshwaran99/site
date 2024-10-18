@@ -21,6 +21,23 @@
   margin-bottom: 0rem;
 }
 
+.btn1 {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.2rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 1px solid rgb(43, 89, 175);
+  transition: var(--transition);
+}
+
+.btn1:hover {
+  background-color: transparent;
+  color:var(--color-hover);
+  border-color: (var(--color-hover));
+}
+
 @media screen and (max-width: 1024px){
   profile {
     padding-top: 3rem;
@@ -38,7 +55,7 @@
     }
   .cta{
     margin-bottom:0rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
   #profile h1{
     padding-top: 2rem;
